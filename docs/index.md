@@ -54,7 +54,7 @@ disqus: "chaoli-books"
       var attr = this.getAttribute("data-md-color-scheme")
       document.body.setAttribute("data-md-color-scheme", attr)
       var name = document.querySelector("#__code_0 code span:nth-child(7)")
-      name.textContent = attr
+      localStorage.setItem("data-md-color-scheme", attr)
     })
   })
 </script>
@@ -102,6 +102,7 @@ disqus: "chaoli-books"
       document.body.setAttribute("data-md-color-primary", attr)
       var name = document.querySelector("#__code_2 code span:nth-child(7)")
       name.textContent = attr.replace("-", " ")
+      localStorage.setItem("data-md-color-primary", attr)
     })
   })
 </script>
@@ -144,6 +145,7 @@ disqus: "chaoli-books"
       document.body.setAttribute("data-md-color-accent", attr)
       var name = document.querySelector("#__code_3 code span:nth-child(7)")
       name.textContent = attr.replace("-", " ")
+      localStorage.setItem("data-md-color-accent", attr)
     })
   })
 </script>

@@ -8,7 +8,7 @@ strict: true
 # Repository
 repo_name: 'HCl-10/chaoli-books'
 repo_url: 'https://github.com/HCl-10/chaoli-books'
-edit_uri: ''
+edit_uri: 'http://b.hcl10.ml/edit-landing/?ref='
 
 # Copyright
 copyright: 'Copyright &copy; 2008 - 2021 Chaoli Team'
