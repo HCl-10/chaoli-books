@@ -20,6 +20,7 @@ nav:
   - 超理教材 九年级全一册:
     - 绪言: cljc9/0.md
     - 第一单元 走进超理世界: cljc9/1.md
+    - 第二单元 我们周围的空气: cljc9/2.md
 
 # Theme
 theme:
@@ -52,9 +53,10 @@ extra:
   githash: ''
 extra_javascript:
   - '_static/js/extra.js?v=16'
-  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+  # - 'https://cdn.bootcss.com/KaTeX/0.11.1/contrib/auto-render.min.js'
 extra_css:
   - '_static/css/extra.css?v=13'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
 
 # Extensions
 markdown_extensions:
@@ -67,7 +69,7 @@ markdown_extensions:
   - meta
   - toc:
       permalink: true
-  - pymdownx.arithmatex
+  # - pymdownx.arithmatex
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
@@ -81,11 +83,11 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.progressbar
   - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: math
-          class: arithmatex
-          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: math
+  #         class: arithmatex
+  #         format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
