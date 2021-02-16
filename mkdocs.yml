@@ -17,6 +17,7 @@ copyright: 'Copyright &copy; 2008 - 2021 Chaoli Team'
 nav:
   - 简介:
     - 关于超理: index.md
+    - Markdown 使用说明: friendly/exmp.md
   - 超理教材 九年级全一册:
     - 绪言: cljc9/0.md
     - 第一单元 走进超理世界: cljc9/1.md
@@ -69,7 +70,7 @@ markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
-      linenums: true
+      linenums: false
   - def_list
   - footnotes
   - meta
