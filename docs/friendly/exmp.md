@@ -254,3 +254,45 @@ print("Hello, World!")
 ***
 因此，在本贴吧（[超理吧](https://tieba.baidu.com/f?ie=utf-8&kw=%E8%B6%85%E7%90%86)）发布的大多数疑似学术研究的内容都是不可靠的。
 ***
+
+## 图片
+Markdown 中插入图片的格式为：`![](图片地址)`
+
+其中，`图片地址` 是以当前文件所在的文件夹作为当前目录的。所以，如果要从 `friendly/exmp.md` 调用上一层的 `Antimoney.png`，需要按照以下方式写：
+
+``` md
+![](../Antimoney.png)
+```
+
+其中 `..` 表示上一级目录。显示效果如下：
+
+***
+![](../Antimoney.png)
+***
+
+但是，一般在写文档的时候，图片居中、加上注释会好看一些，这时，我们应该这么写：
+
+``` md
+<center>
+	![](../Antimoney.png)
+	<br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block; color: #999; padding: 2px;">
+    金属锑
+  	</div>
+</center>
+```
+
+显示效果如下：
+
+***
+<center>
+	![](../Antimoney.png)
+	<br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block; color: #999; padding: 2px;">
+    金属锑
+  	</div>
+</center>
+
+***
