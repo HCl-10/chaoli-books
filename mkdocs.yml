@@ -46,32 +46,34 @@ theme:
   include_search_page: false
   search_index_only: true
   favicon: 'Antimoney.ico'
-  icon: 'Antimoney.png'
+  icon:
+    repo: fontawesome/brands/github
   feature:
     tabs: true
   font:
-    text: 'Fira Sans'
-    code: 'Fira Mono'
+    text: 'Open Sans'
+    code: 'Cascadia Mono'
 
 # Customization
 extra:
   search:
     language: 'jp'
   disqus: 'chaoli-books'
-  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>'
   pagetime: 'on'
   manifest: 'manifest.webmanifest'
   githash: ''
 extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js'
   - '_static/js/extra.js?v=16'
-  # - 'https://cdn.bootcss.com/KaTeX/0.11.1/contrib/auto-render.min.js'
 extra_css:
   - '_static/css/extra.css?v=13'
   - 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css'
 
 # Extensions
 markdown_extensions:
   - admonition
+  - attr_list
   - codehilite:
       guess_lang: false
       linenums: false
@@ -93,6 +95,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.progressbar
   - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

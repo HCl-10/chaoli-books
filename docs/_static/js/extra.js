@@ -17,4 +17,6 @@ window.addEventListener(
   false
 );
 
+hljs.initHighlighting();
+
 document.getElementsByTagName("html")[0].lang = "zh-Hans"; // change language to `zh-Hans` for Han.js.

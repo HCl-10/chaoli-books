@@ -3,9 +3,13 @@ disqus: ""
 ---
 # 编辑前须知
 
-感谢您愿意为本项目做出自己的贡献，请点击下方的按钮，然后开始编辑。
+感谢您愿意为本项目做出自己的贡献。
 
-<a id="btn-startedit" style="padding: 0.75em 1.25em; display: inline-block; line-height: 1; text-decoration: none; white-space: nowrap; cursor: pointer; border: 1px solid #6190e8; border-radius: 5px; background-color: #6190e8; color: #fff; outline: none; font-size: 0.75em;">开始编辑</a>
+如果您不了解如何使用 Markdown，请先阅读 [Markdown 使用说明](friendly/exmp.md)。
+
+如果您已经了解如何使用 Markdown，请点击下方的按钮，然后开始编辑。
+
+<a id="btn-startedit" style="padding: 0.75em 1.25em; display: inline-block; line-height: 1; text-decoration: none; white-space: nowrap; cursor: pointer; border: 1px solid #4154b3; border-radius: 2px; background-color: #4154b3; color: #fff; outline: none; font-size: 0.75em;">开始编辑</a>
 
 <script>
 	function getQueryVariable(name, dft)
