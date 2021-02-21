@@ -19,6 +19,7 @@ nav:
     - 关于超理: index.md
     - Markdown 使用说明: friendly/exmp.md
   - 超理教材 九年级全一册:
+    - 关于本书: cljc9/index.md
     - 绪言: cljc9/0.md
     - 第一单元 走进超理世界: cljc9/1.md
     - 第二单元 我们周围的空气: cljc9/2.md
