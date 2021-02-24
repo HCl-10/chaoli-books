@@ -33,6 +33,8 @@ nav:
     - 结束语: cljc9/10.md
     - 附录: cljc9/11.md
     - 真·结语: cljc9/12.md
+  - 大锑星百科全书:
+    - 赵明毅: bkqs/zmy.md
 
 # Theme
 theme:
