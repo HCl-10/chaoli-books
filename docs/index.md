@@ -1,21 +1,4 @@
 # 关于超理
-<!-- <div class="tx-switch">
-  <button data-md-jianfan="s"><code>简体中文</code></button>
-  <button data-md-jianfan="t"><code>繁体中文</code></button>
-</div>
-
-<script>
-  var buttons = document.querySelectorAll("button[data-md-jianfan]")
-  buttons.forEach(function(button) {
-    button.addEventListener("click", function() {
-      var attr = this.getAttribute("data-md-jianfan")
-      var name = document.querySelector("#__code_0 code span:nth-child(7)")
-      localStorage.setItem("data-md-jianfan", attr)
-      location.reload()
-    })
-  })
-</script> -->
-
 超理学是什么？所谓超理，就是在一定的科学基础上，提出明显荒谬的理论或所谓实验结果，从而达到恶搞、创意的效果。因此，在本贴吧（[超理吧](https://tieba.baidu.com/f?ie=utf-8&kw=%E8%B6%85%E7%90%86)）发布的大多数疑似学术研究的内容都是不可靠的。
 
 该运动主要存在于化学学科，但现在已经几乎扩散到所有的理科。目前，我们还打算向着超文进攻，开创超文哲学，超文学等学科领域。
