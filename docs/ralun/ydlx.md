@@ -65,6 +65,55 @@
 
 3. 如果运动物体的每一个质点上的运动力不一样，物体形状会发生改变。
 
+## 六、运动力的大小
+1. 运动力的大小是指每一秒运动力的大小。
+
+2. 每一秒运动力的大小 $=$ 物体质量 $\times$ 每一秒运动的速度。
+
+3. 有人问：运动力只能 1 秒 1 秒的计算吗？不是的。
+
+	有了每一秒的运动力，任何时间 $t$ 的运动力都能计算出来了。
+
+## 七、运动力的计算公式
+1. 运动力的计算公式：$L=kmv$。
+
+	$L$，每一秒的运动力。$k=1/$秒（每一秒）。$m$，运动物体质量。$v$，运动速度。
+
+2. 运动力的计算公式 $L=kmv$，可以计算大到宇宙天体，小到电子，分子，光子每一秒运动需要的力。
+
+## 八、运动力的单位
+1. 运动力 $L=kmv$ 的单位：$L$ 单位：雷。$k$ 单位：$1/$秒。$m$ 单位：千克。$v$ 单位：米/秒。
+
+2. 运动力的单位：${\rm 1\;L}=1\;\text{千克}\cdot\text{米/秒}\cdot1/\text{秒}=1\;\text{雷}$。
+
+3. 运动力 $\rm 1\;L=$世界通用的力 $\rm 1\;N$。
+
+4. 运动力的单位 ${\rm 1\;L}=1\;\text{千克}\cdot\text{米/秒}\cdot1/\text{秒}=1\;\text{雷}$，揭示了力的本质：力与物体每一秒的运动状态密不可分。
+
+## 九、运动力第一定律
+运动力第一定律：运动力和物体运动的关系:
+
+1. 运动力 $=0$,物体静止。
+
+2. 运动力 $>0$,物体运动。
+
+3. 运动力不变,物体匀速运动。(包括匀速直线运动。匀速圆周运动。匀速曲线运动）。
+
+## 十、运动力第二定律
+运动力第二定律：运动力与速度的关系：质量不变，阻力不变的条件下，运动速度与运动力成正比。
+
+1. 运动力越大，速度越快。
+
+2. 运动力越小，速度越慢。
+
+3. 运动力 $=0$，速度 $=0$。
+
+4. 只有力增加，速度才能增加。
+
+5. 证明：牛顿第二定律的力只产生加速度是错误的。
+
+	没有速度的增加，哪里来的加速度？
+
 
 
 [^1]: 整理自雷氏力学吧，原帖：<br>[https://tieba.baidu.com/p/6492420558](https://tieba.baidu.com/p/6492420558)<br>[https://tieba.baidu.com/p/6492498124](https://tieba.baidu.com/p/6492498124)<br>[https://tieba.baidu.com/p/6492576246](https://tieba.baidu.com/p/6492576246)<br>[https://tieba.baidu.com/p/6492609086](https://tieba.baidu.com/p/6492609086)<br>[https://tieba.baidu.com/p/6494246657](https://tieba.baidu.com/p/6494246657)<br>[https://tieba.baidu.com/p/6494267545](https://tieba.baidu.com/p/6494267545)<br>[https://tieba.baidu.com/p/6494282860](https://tieba.baidu.com/p/6494282860)<br>[https://tieba.baidu.com/p/6494329199](https://tieba.baidu.com/p/6494329199)<br>[https://tieba.baidu.com/p/6494430939](https://tieba.baidu.com/p/6494430939)<br>[https://tieba.baidu.com/p/6494459362](https://tieba.baidu.com/p/6494459362)<br>[https://tieba.baidu.com/p/6494620706](https://tieba.baidu.com/p/6494620706)<br>[https://tieba.baidu.com/p/6496656694](https://tieba.baidu.com/p/6496656694)<br>[https://tieba.baidu.com/p/6500423502](https://tieba.baidu.com/p/6500423502)<br>[https://tieba.baidu.com/p/6501853022](https://tieba.baidu.com/p/6501853022)<br>[https://tieba.baidu.com/p/6503768472](https://tieba.baidu.com/p/6503768472)<br>[https://tieba.baidu.com/p/6503846883](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6506281488](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6507559376](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6507609773](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6509172488](https://tieba.baidu.com/p/6509172488)<br>[https://tieba.baidu.com/p/6511249244](https://tieba.baidu.com/p/6511249244)<br>[https://tieba.baidu.com/p/6519213957](https://tieba.baidu.com/p/6519213957)<br>[https://tieba.baidu.com/p/6521035226](https://tieba.baidu.com/p/6521035226)<br>[https://tieba.baidu.com/p/7229749890](https://tieba.baidu.com/p/7229749890)<br>作者：雷绍武
