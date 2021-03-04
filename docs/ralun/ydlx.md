@@ -177,6 +177,75 @@
 
 	那些相信牛顿第一运动定律的人，疯狂反对运动力理论的人，更是对力和运动关系的一无所知。
 
+## 13. 牛顿第二定律是错误的
+1. 牛顿第二定律说：物体加速度的大小跟它所受的作用力成正比、跟它的质量成反比，加速度的方向跟作用力的方向相同（定量的计算力与运动的关系，$F=ma$）。在国际单位制中的单位为米每二次方秒。
+
+2. 牛顿第二定律是牛顿力学的最关键性错误。
+
+3. 物体受到的力是合外力，不是作用力。
+
+4. 物体运动的标志是速度 $V$，而不是加速度 $a$。
+
+5. 物体受到的合外力 $F=$ 物体的运动力 $L$。
+
+6. 物体受到的合外力与运动速度是成正比关系。
+
+	质量不变时：
+
+	1. 合外力 $=0$，物体静止。
+
+	2. 合外力 $>0$，物体能运动。
+
+	3. 合外力越大，物体的运动速度越快。
+
+	4. 合外力越小，物体的运动速度越慢。
+
+	5. 合外力不变，物体的运动速度不变。
+
+7. 合外力方向与物体运动方向一致。
+
+8. 事实证明：合外力只和速度有关系，和加速度没有任何关系。
+
+	牛顿的合外力只产生加速度的牛顿第二定律是错误。
+
+## 14. 牛顿第三定律是错误的
+1. 牛顿第三定律说：两个物体之间的作用力和反作用力，总是大小相等、方向相反，作用在同一条直线上（说明了力的作用是相互的）。
+
+2. 牛顿第三定律是错误的。
+
+3. 两个物体之间的作用力和反作用力，总是大小相等、方向相反，作用在同一条直线上。
+
+	这只是两个物体相互作用后，合外力 $=0$ 时的一种静止状态。
+
+4. 当两个物体相互作用后，合外力 $>0$ 时，会发生物体的运动现象。
+
+5. 当一个物体作用在另一个物体的力不在同一条直线上时，会改变物体的运动方向。
+
+6. 说“力的作用是相互的”，是因为有两个物体的力的存在，才能发生相互作用。
+
+	如果只有一个物体的力，和谁去相互作用呢？
+
+7. 证明：说物体的力只有在物体作用时才存在，同时产生，同时消失是错误的。
+
+8. 证明：牛顿第三定律是错误的。
+
+## 15. 速度 = 位移 / 时间的错误
+1. 高中物理说：速度等于位移 $s$ 跟发生这段位移所用时间 $t$ 的比值。用 $v={\frac {s}{t}}$ 表示。
+
+2. 速度 = 位移 / 时间是错误的。
+
+3. 位移只与物体运动的始末位置有关，而与运动的轨迹无关。如果质点在运动过程中经过一段时间后回到原处，位移则为零。
+
+	1. 难道运动员在 400 米环形跑道跑 $n$ 圈后回到原来位置的运动速度 $=0$ 吗？
+
+	2. 难道飞机飞行几百公里后回到原来位置的飞行速度 $=0$ 吗？
+
+4. 证明：速度 = 位移 / 时间是错误的。
+
+5. 那么，什么是正确的速度呢？
+
+	正确的是：速度 = 运动的路程 / 运动的时间。用 $v={\frac {S}{t}}$ 表示。$v$，速度；$S$，运动路程；$t$，运动时间。
+
 
 
 [^1]: 整理自雷氏力学吧，原帖：<br>[https://tieba.baidu.com/p/6492420558](https://tieba.baidu.com/p/6492420558)<br>[https://tieba.baidu.com/p/6492498124](https://tieba.baidu.com/p/6492498124)<br>[https://tieba.baidu.com/p/6492576246](https://tieba.baidu.com/p/6492576246)<br>[https://tieba.baidu.com/p/6492609086](https://tieba.baidu.com/p/6492609086)<br>[https://tieba.baidu.com/p/6494246657](https://tieba.baidu.com/p/6494246657)<br>[https://tieba.baidu.com/p/6494267545](https://tieba.baidu.com/p/6494267545)<br>[https://tieba.baidu.com/p/6494282860](https://tieba.baidu.com/p/6494282860)<br>[https://tieba.baidu.com/p/6494329199](https://tieba.baidu.com/p/6494329199)<br>[https://tieba.baidu.com/p/6494430939](https://tieba.baidu.com/p/6494430939)<br>[https://tieba.baidu.com/p/6494459362](https://tieba.baidu.com/p/6494459362)<br>[https://tieba.baidu.com/p/6494620706](https://tieba.baidu.com/p/6494620706)<br>[https://tieba.baidu.com/p/6496656694](https://tieba.baidu.com/p/6496656694)<br>[https://tieba.baidu.com/p/6500423502](https://tieba.baidu.com/p/6500423502)<br>[https://tieba.baidu.com/p/6501853022](https://tieba.baidu.com/p/6501853022)<br>[https://tieba.baidu.com/p/6503768472](https://tieba.baidu.com/p/6503768472)<br>[https://tieba.baidu.com/p/6503846883](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6506281488](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6507559376](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6507609773](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6509172488](https://tieba.baidu.com/p/6509172488)<br>[https://tieba.baidu.com/p/6511249244](https://tieba.baidu.com/p/6511249244)<br>[https://tieba.baidu.com/p/6519213957](https://tieba.baidu.com/p/6519213957)<br>[https://tieba.baidu.com/p/6521035226](https://tieba.baidu.com/p/6521035226)<br>[https://tieba.baidu.com/p/7229749890](https://tieba.baidu.com/p/7229749890)<br>作者：雷绍武
