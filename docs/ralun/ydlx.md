@@ -246,6 +246,71 @@
 
 	正确的是：速度 = 运动的路程 / 运动的时间。用 $v={\frac {S}{t}}$ 表示。$v$，速度；$S$，运动路程；$t$，运动时间。
 
+## 16. 速度方向的错误
+1. 高中物理说：速度的方向即为物体运动的方向。
+
+2. 说“速度的方向即为物体运动的方向”是错误的。
+
+3. 因为速度 = 路程 / 时间。路程 = 长度。长度，时间和任何方向都没有关系。
+
+4. 结论：说速度有方向是错误的。
+
+## 17. 作用力和反作用力问题
+很多人对作用力和反作用力物体纠缠不清。
+
+1. 作用力和反作用力是两个物体方向相反，在同一条直线上的力。
+
+2. 静止的物体作用力和反作用力大小相等，方向相反，在同一条直线上。
+
+	比如：
+
+	静止的汽车：汽车重力（作用力）= 地面对汽车的支撑力（反作用力）。合外力 $=0$。
+
+	静止的吊灯：吊灯的拉力（作用力）= 吊灯的重力（反作用力）。合外力 $=0$。
+
+3. 静止的汽车在水平方向上有摩擦力阻力。
+
+4. 当汽车牵引力（作用力）= 汽车在水平方向上的摩擦力阻力（反作用力）时，合外力 $=0$，汽车一定是静止的。
+
+	经典力学，教科书上面都说：汽车受到的合外力 $=0$，汽车匀速直线运动。
+
+	这完全是不懂装懂的胡说八道！
+
+	这是对人类的彻头彻尾的欺骗！
+
+	可怜那些没有智商的科奴们却如获至宝，奉若万古不变的真理，代代相传！
+
+	不知道这种欺骗什么时候才是一个尽头！！！？？？
+
+5. 只有当汽车牵引力（作用力）> 汽车在水平方向上的摩擦力阻力（反作用力）时，合外力 $>0$，运动力 $>0$，汽车才能够运动。
+
+6. 只有汽车的运动力不变，汽车才能匀速运动（不光是匀速直线运动）。
+
+7. 物体的作用力 < 物体阻力，比如人用力踢墙，墙肯定是静止的。
+
+8. 物体的作用力 > 物体阻力，比如人用力踢足球，合外力 $>0$，足球运动力 $>0$，足球肯定能飞出去。作用力越大，足球飞的越快越远。
+
+	这就是实验实践证明。
+
+## 18. 力和速度的关系
+1. 速度是合外力 $>0$ 产生的。如果没有合外力 $>0$，就没有运动速度。
+
+2. 因此，合外力 $>0$，产生的是运动速度，而不是加速度。
+
+3. 力和速度的关系是：
+
+	1. 每一秒 $\rm 1\;N$ 的合外力 = 每一秒 $\rm 1\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 1 米/秒的速度 $v$。
+
+	2. 每一秒 $\rm 5\;N$ 的合外力 = 每一秒 $\rm 5\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 5 米/秒的速度 $v$。
+
+		............................
+
+	3. 证明：力和运动速度成正比关系。
+
+	4. 证明：任何一点点力的改变都会引起速度的改变。
+
+4. 结论：经典力学说运动不需要力，是完全错误的。
+
 
 
 [^1]: 整理自雷氏力学吧，原帖：<br>[https://tieba.baidu.com/p/6492420558](https://tieba.baidu.com/p/6492420558)<br>[https://tieba.baidu.com/p/6492498124](https://tieba.baidu.com/p/6492498124)<br>[https://tieba.baidu.com/p/6492576246](https://tieba.baidu.com/p/6492576246)<br>[https://tieba.baidu.com/p/6492609086](https://tieba.baidu.com/p/6492609086)<br>[https://tieba.baidu.com/p/6494246657](https://tieba.baidu.com/p/6494246657)<br>[https://tieba.baidu.com/p/6494267545](https://tieba.baidu.com/p/6494267545)<br>[https://tieba.baidu.com/p/6494282860](https://tieba.baidu.com/p/6494282860)<br>[https://tieba.baidu.com/p/6494329199](https://tieba.baidu.com/p/6494329199)<br>[https://tieba.baidu.com/p/6494430939](https://tieba.baidu.com/p/6494430939)<br>[https://tieba.baidu.com/p/6494459362](https://tieba.baidu.com/p/6494459362)<br>[https://tieba.baidu.com/p/6494620706](https://tieba.baidu.com/p/6494620706)<br>[https://tieba.baidu.com/p/6496656694](https://tieba.baidu.com/p/6496656694)<br>[https://tieba.baidu.com/p/6500423502](https://tieba.baidu.com/p/6500423502)<br>[https://tieba.baidu.com/p/6501853022](https://tieba.baidu.com/p/6501853022)<br>[https://tieba.baidu.com/p/6503768472](https://tieba.baidu.com/p/6503768472)<br>[https://tieba.baidu.com/p/6503846883](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6506281488](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6507559376](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6507609773](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6509172488](https://tieba.baidu.com/p/6509172488)<br>[https://tieba.baidu.com/p/6511249244](https://tieba.baidu.com/p/6511249244)<br>[https://tieba.baidu.com/p/6519213957](https://tieba.baidu.com/p/6519213957)<br>[https://tieba.baidu.com/p/6521035226](https://tieba.baidu.com/p/6521035226)<br>[https://tieba.baidu.com/p/7229749890](https://tieba.baidu.com/p/7229749890)<br>作者：雷绍武
