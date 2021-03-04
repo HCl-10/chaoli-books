@@ -311,6 +311,56 @@
 
 4. 结论：经典力学说运动不需要力，是完全错误的。
 
+## 19. 力和加速度的关系
+1. 力和速度成正比关系。
+
+	1. 每一秒 $\rm 1\;N$ 的合外力 = 每一秒 $\rm 1\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 1 米/秒的速度 $v$。
+
+	2. 每一秒 $\rm 5\;N$ 的合外力 = 每一秒 $\rm 5\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 5 米/秒的速度 $v$。
+
+		............................
+
+	3. 证明：没有力的增加，就没有速度的增加。
+
+2. 合外力和加速度的关系：
+
+	1. 用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 1 米/秒的速度 $v$。
+
+	2. 用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 5 秒，产生每秒 5 米/秒的速度 $v$。
+
+	3. 用每一秒 $\rm 5\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 5 米/秒的速度 $v$。
+
+	4. 证明：
+
+		用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 5 秒，产生每秒 5 米/秒的速度 $v$ = 用每一秒 $\rm 5\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 5 米/秒的速度 $v$。
+
+	5. 证明：每一秒 $\rm 1\;N$ 的合外力作用 5 秒的力 = 每一秒 $\rm 5\;N$ 的合外力作用 1 秒的力。
+
+	6. 结论：只有增加力，才能增加速度。
+
+		说力不变能产生加速度是错误的。
+
+## 20. 自由落体运动
+1. 自由落体运动：是在重力作用下运动力匀速增加的匀加速运动。
+
+2. 1 千克物体每一秒增加运动力 4.9 L。每一秒增加速度 4.9 米/秒。
+
+3. 1 千克物体第一秒运动力 4.9 L。第一秒速度 4.9米/秒。
+
+4. 1 千克物体第二秒运动力 9.8 L。第二秒速度 9.8 米/秒。
+
+5. 1 千克物体第三秒运动力 14.7 L。第三秒速度 14.7 米/秒。
+
+	.............................
+
+	以此类推。
+
+	$t$ 时间的运动力 $L =$ 1 千克物体每一秒增加的运动力 $\rm 4.9\;L\cdot t=4.9\;L\cdot1/s\cdot t$。
+
+	$t$ 时间的运动速度 $v =$ 每一秒增加的速度 $\rm 4.9\;m/s\cdot t=4.9\;m/s\cdot 1/s\cdot t$。
+
+6. 证明：越高的物体，下落时间越长，运动力越大，运动速度越快。
+
 
 
 [^1]: 整理自雷氏力学吧，原帖：<br>[https://tieba.baidu.com/p/6492420558](https://tieba.baidu.com/p/6492420558)<br>[https://tieba.baidu.com/p/6492498124](https://tieba.baidu.com/p/6492498124)<br>[https://tieba.baidu.com/p/6492576246](https://tieba.baidu.com/p/6492576246)<br>[https://tieba.baidu.com/p/6492609086](https://tieba.baidu.com/p/6492609086)<br>[https://tieba.baidu.com/p/6494246657](https://tieba.baidu.com/p/6494246657)<br>[https://tieba.baidu.com/p/6494267545](https://tieba.baidu.com/p/6494267545)<br>[https://tieba.baidu.com/p/6494282860](https://tieba.baidu.com/p/6494282860)<br>[https://tieba.baidu.com/p/6494329199](https://tieba.baidu.com/p/6494329199)<br>[https://tieba.baidu.com/p/6494430939](https://tieba.baidu.com/p/6494430939)<br>[https://tieba.baidu.com/p/6494459362](https://tieba.baidu.com/p/6494459362)<br>[https://tieba.baidu.com/p/6494620706](https://tieba.baidu.com/p/6494620706)<br>[https://tieba.baidu.com/p/6496656694](https://tieba.baidu.com/p/6496656694)<br>[https://tieba.baidu.com/p/6500423502](https://tieba.baidu.com/p/6500423502)<br>[https://tieba.baidu.com/p/6501853022](https://tieba.baidu.com/p/6501853022)<br>[https://tieba.baidu.com/p/6503768472](https://tieba.baidu.com/p/6503768472)<br>[https://tieba.baidu.com/p/6503846883](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6506281488](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6507559376](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6507609773](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6509172488](https://tieba.baidu.com/p/6509172488)<br>[https://tieba.baidu.com/p/6511249244](https://tieba.baidu.com/p/6511249244)<br>[https://tieba.baidu.com/p/6519213957](https://tieba.baidu.com/p/6519213957)<br>[https://tieba.baidu.com/p/6521035226](https://tieba.baidu.com/p/6521035226)<br>[https://tieba.baidu.com/p/7229749890](https://tieba.baidu.com/p/7229749890)<br>作者：雷绍武
