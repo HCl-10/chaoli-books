@@ -34,4 +34,4 @@
 
 <p align="right">2021 年 1 月 29 日，<a href="https://tieba.baidu.com/p/7209971637">原文链接</a></p>
 
-[^1]: 东北话“der”是小＊＊的意思。
+[^1]: <span class="heimu">东北话“der”是小＊＊的意思。</span>
