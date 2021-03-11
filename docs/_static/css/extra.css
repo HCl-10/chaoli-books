@@ -113,12 +113,18 @@ h5 {
     text-shadow: none;
 }
 
+.foot-heimu{
+    background-color: #252525;
+    color:#252525;
+    text-shadow: none;
+}
+
 .heimu:hover{
     transition:color .13s linear;
     color:#e9ebfa;
 }
 
-.footnote>ol>li>p>.heimu:hover{
+.foot-heimu:hover{
     transition:color .13s linear;
     color:#9498af;
 }
