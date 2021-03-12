@@ -467,6 +467,44 @@
 
 	5. 证明：经典力学说“运动不需要力”是错误的。
 
+## 27. 运动是绝对的
+
+1. 物体运动速度 $=0$，静止。
+
+2. 物体运动速度 $>0$，运动。
+
+3. 因为速度是绝对的。
+
+4. 因此，运动也是绝对的。
+
+5. 说运动是相对的都是错误的，无知的。
+
+## 28. 静止是绝对的
+
+1. 什么叫静止？
+
+	答：速度 $=0$，就是静止。
+
+2. 速度 $=0$，这是绝对的。
+
+3. 因此，静止是绝对的。
+
+4. 有人说，房子是静止的，山是静止的。难道它们没有随着地球运动吗？
+
+	答:这些人不知道是地球承载着房子，山的运动。如果地球速度 $=0$ 了，地球，房子，山还在运动吗？
+
+5. 问这些问题的人是对运动和静止的概念一无所知。
+
+## 29. 惯性定律是错误的
+
+1. 运动力 $>0$，物体运动。
+
+2. 运动力 $=0$，物体静止。
+
+3. 物体不存在惯性。
+
+4. 惯性定律是错误的，无知的。
 
 
-[^1]: 整理自雷氏力学吧，原帖：<br>[https://tieba.baidu.com/p/6492420558](https://tieba.baidu.com/p/6492420558)<br>[https://tieba.baidu.com/p/6492498124](https://tieba.baidu.com/p/6492498124)<br>[https://tieba.baidu.com/p/6492576246](https://tieba.baidu.com/p/6492576246)<br>[https://tieba.baidu.com/p/6492609086](https://tieba.baidu.com/p/6492609086)<br>[https://tieba.baidu.com/p/6494246657](https://tieba.baidu.com/p/6494246657)<br>[https://tieba.baidu.com/p/6494267545](https://tieba.baidu.com/p/6494267545)<br>[https://tieba.baidu.com/p/6494282860](https://tieba.baidu.com/p/6494282860)<br>[https://tieba.baidu.com/p/6494329199](https://tieba.baidu.com/p/6494329199)<br>[https://tieba.baidu.com/p/6494430939](https://tieba.baidu.com/p/6494430939)<br>[https://tieba.baidu.com/p/6494459362](https://tieba.baidu.com/p/6494459362)<br>[https://tieba.baidu.com/p/6494620706](https://tieba.baidu.com/p/6494620706)<br>[https://tieba.baidu.com/p/6496656694](https://tieba.baidu.com/p/6496656694)<br>[https://tieba.baidu.com/p/6500423502](https://tieba.baidu.com/p/6500423502)<br>[https://tieba.baidu.com/p/6501853022](https://tieba.baidu.com/p/6501853022)<br>[https://tieba.baidu.com/p/6503768472](https://tieba.baidu.com/p/6503768472)<br>[https://tieba.baidu.com/p/6503846883](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6506281488](https://tieba.baidu.com/p/6503846883)<br>[https://tieba.baidu.com/p/6507559376](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6507609773](https://tieba.baidu.com/p/6507559376)<br>[https://tieba.baidu.com/p/6509172488](https://tieba.baidu.com/p/6509172488)<br>[https://tieba.baidu.com/p/6511249244](https://tieba.baidu.com/p/6511249244)<br>[https://tieba.baidu.com/p/6519213957](https://tieba.baidu.com/p/6519213957)<br>[https://tieba.baidu.com/p/6521035226](https://tieba.baidu.com/p/6521035226)<br>[https://tieba.baidu.com/p/7229749890](https://tieba.baidu.com/p/7229749890)<br>作者：雷绍武
+
+[^1]: 整理自雷氏力学吧，原帖：<br>https://tieba.baidu.com/p/6492420558<br>https://tieba.baidu.com/p/6492498124<br>https://tieba.baidu.com/p/6492576246<br>https://tieba.baidu.com/p/6492609086<br>https://tieba.baidu.com/p/6494246657<br>https://tieba.baidu.com/p/6494267545<br>https://tieba.baidu.com/p/6494282860<br>https://tieba.baidu.com/p/6494329199<br>https://tieba.baidu.com/p/6494430939<br>https://tieba.baidu.com/p/6494459362<br>https://tieba.baidu.com/p/6494620706<br>https://tieba.baidu.com/p/6496656694<br>https://tieba.baidu.com/p/6500423502<br>https://tieba.baidu.com/p/6501853022<br>https://tieba.baidu.com/p/6503768472<br>https://tieba.baidu.com/p/6503846883<br>https://tieba.baidu.com/p/6506281488<br>https://tieba.baidu.com/p/6507559376<br>https://tieba.baidu.com/p/6507609773<br>https://tieba.baidu.com/p/6509172488<br>https://tieba.baidu.com/p/6511249244<br>https://tieba.baidu.com/p/6519213957<br>https://tieba.baidu.com/p/6521035226<br>https://tieba.baidu.com/p/7229749890<br>https://tieba.baidu.com/p/7256015264<br>https://tieba.baidu.com/p/7256817070<br>https://tieba.baidu.com/p/7256001417<br>作者：雷绍武
