@@ -76,8 +76,8 @@ theme:
   feature:
     tabs: true
   font:
-    text: 'Open Sans'
-    code: 'Cascadia Mono'
+    text: 'Roboto'
+    code: 'Roboto Mono'
 
 # Customization
 extra:
