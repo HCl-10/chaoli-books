@@ -1,0 +1,1574 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta http-equiv="x-dns-prefetch-control" content="on">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="本项目提供各超理书籍供各位超理爱好者学习">
+      
+      
+      
+        <meta name="author" content="超理团队">
+      
+      
+        <link rel="canonical" href="http://b.hcl10.ml/friendly/exmp/">
+      
+      <link rel="shortcut icon" href="../../Antimoney.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>Markdown 使用说明 - 超理图书馆</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8e656da0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.936e7021.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto",;--md-code-font-family:"Roboto Mono",}</style>
+      
+    
+    
+      <link rel="manifest" href="../../manifest.webmanifest" crossorigin="use-credentials">
+    
+    
+      <link rel="stylesheet" href="../../_static/css/extra.css?v=13">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="red">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#markdown" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="http://b.hcl10.ml/" title="超理图书馆" class="md-header-nav__button md-logo" aria-label="超理图书馆">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            超理图书馆
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Markdown 使用说明
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/HCl-10/chaoli-books/" title="前往 GitHub 仓库" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    HCl-10/chaoli-books
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://b.hcl10.ml/" title="超理图书馆" class="md-nav__button md-logo" aria-label="超理图书馆">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    超理图书馆
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/HCl-10/chaoli-books/" title="前往 GitHub 仓库" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    HCl-10/chaoli-books
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+      
+      <label class="md-nav__link" for="nav-1">
+        简介
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="简介" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          简介
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        关于超理
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Markdown 使用说明
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Markdown 使用说明
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    标题
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    段落格式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    公式
+  </a>
+  
+    <nav class="md-nav" aria-label="公式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    行间公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    独立公式
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    列表
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    区块
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    代码
+  </a>
+  
+    <nav class="md-nav" aria-label="代码">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    行间代码
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    代码区块
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    链接
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    图片
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        超理教材 九年级全一册
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="超理教材 九年级全一册" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          超理教材 九年级全一册
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/" class="md-nav__link">
+        关于本书
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/0/" class="md-nav__link">
+        绪言
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/1/" class="md-nav__link">
+        第一单元 走进超理世界
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/2/" class="md-nav__link">
+        第二单元 我们周围的空气
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/3/" class="md-nav__link">
+        第三单元 氢
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/4/" class="md-nav__link">
+        第四单元 锑能守恒定律
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/5/" class="md-nav__link">
+        第五单元 锑与锑场
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/6/" class="md-nav__link">
+        第六单元 赵明毅大师及其发现
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/7/" class="md-nav__link">
+        第七单元 学习伟大的超理学家
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/8/" class="md-nav__link">
+        第八单元 实验
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/9/" class="md-nav__link">
+        第九单元 超理思想的传播与交流
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/10/" class="md-nav__link">
+        结束语
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/11/" class="md-nav__link">
+        附录
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/12/" class="md-nav__link">
+        真·结语
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        大锑星百科全书
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="大锑星百科全书" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          大锑星百科全书
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/mp3zh/" class="md-nav__link">
+        mp3 杂化
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/fg/" class="md-nav__link">
+        发功
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/gw/" class="md-nav__link">
+        高烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/hg/" class="md-nav__link">
+        黑光
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/jjw/" class="md-nav__link">
+        聚甲烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/knn/" class="md-nav__link">
+        昆奶牛
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/lhg/" class="md-nav__link">
+        颅海龟
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/mj/" class="md-nav__link">
+        魔键
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/qhjw/" class="md-nav__link">
+        氢合甲烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/tc/" class="md-nav__link">
+        锑场
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/txdx/" class="md-nav__link">
+        锑星大学
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/zmy/" class="md-nav__link">
+        赵明毅
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+      
+      <label class="md-nav__link" for="nav-4">
+        雷论
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="雷论" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          雷论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ralun/" class="md-nav__link">
+        总集
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ralun/ydlx/" class="md-nav__link">
+        运动力学讲解
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ralun/cxdz/" class="md-nav__link">
+        创新电子理论
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ralun/yonglei/" class="md-nav__link">
+        咏雷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ralun/stories/" class="md-nav__link">
+        雷绍武回忆录
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        丙酮著作集
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="丙酮著作集" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          丙酮著作集
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acetone/lxtl/" class="md-nav__link">
+        关于普通高中学生邋遢现象的研究
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acetone/lhgknn/" class="md-nav__link">
+        喜阴的颅海龟和高原的昆奶牛
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        WYZ 超文集
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="WYZ 超文集" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          WYZ 超文集
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/Acid_Hard-A/" class="md-nav__link">
+        Acid Hard (上)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/gysj/" class="md-nav__link">
+        野史春秋·生物列传·果蝇世家
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/gywz/" class="md-nav__link">
+        野史春秋·生物列传·果蝇外传(未完)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    标题
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    段落格式
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    公式
+  </a>
+  
+    <nav class="md-nav" aria-label="公式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    行间公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    独立公式
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    列表
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    区块
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    代码
+  </a>
+  
+    <nav class="md-nav" aria-label="代码">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    行间代码
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    代码区块
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    链接
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    图片
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="http://b.hcl10.ml/edit-landing/?ref=/friendly/exmp.md" title="编辑此页" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="markdown">Markdown 使用说明<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h1>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<p>常用的 Markdown 编辑器有 Typora、Visual Studio Code、Atom 等（均跨平台）。MkDocs 所支持的 Markdown 语法为普通 Markdown 语法的扩展。</p>
+<h2 id="_1">标题<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>标题行以若干个 <code>#</code> 开头，井号的数量代表标题的优先级。注意除了文档第一行以外，我们一般不用一级标题。</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="gh"># 我是一级标题</span>
+<span class="gu">## 我是二级标题</span>
+<span class="gu">### 我是三级标题</span>
+<span class="gu">#### 我是四级标题</span>
+<span class="gu">##### 我是五级标题</span>
+<span class="gu">###### 我是六级标题</span>
+</code></pre></div>
+</td></tr></table>
+<p>显示效果：</p>
+<hr />
+<h1>我是一级标题</h1>
+<h2>我是二级标题</h2>
+<h3>我是三级标题</h3>
+<h4>我是四级标题</h4>
+<h5>我是五级标题</h5>
+<h6>我是六级标题</h6>
+
+<hr />
+<h2 id="_2">段落格式<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>在 Markdown 文档中，每两段之间需要用一个空行分隔。同时，Markdown 可以使用以下几种字体格式：
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ge">*斜体*</span>
+
+<span class="gs">**粗体**</span>
+
+***粗斜体***
+
+<span class="gd">~~删除线~~</span>
+
+&lt;u&gt;下划线&lt;/u&gt;
+
+&lt;span class=&quot;heimu&quot;&gt;谢谢参与&lt;/span&gt;
+</code></pre></div>
+</td></tr></table></p>
+<p>显示效果如下：</p>
+<hr />
+<p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p><strong><em>粗斜体</em></strong></p>
+<p><del>删除线</del></p>
+<p><u>下划线</u></p>
+<p><span class="heimu">谢谢参与</span></p>
+<hr />
+<p>同时，可以通过在单独的一行中输入 <code>***</code> 绘制一个分割线。如果要在灰色的文字上（如脚注）覆盖黑幕，可以使用 <code>&lt;span class="foot-heimu"&gt;</code>，如下面这个例子：</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&gt; 这是一个例子：&lt;span class=&quot;foot-heimu&quot;&gt;114514，1919810！&lt;/span&gt;[^1]
+
+[^1]: &lt;span class=&quot;foot-heimu&quot;&gt;嗯哼哼，啊啊啊啊啊啊啊啊！！！&lt;/span&gt;
+</code></pre></div>
+</td></tr></table>
+<blockquote>
+<p>这是一个例子：<span class="foot-heimu">114514，1919810！</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</blockquote>
+<h2 id="_3">公式<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>Markdown 支持 $\LaTeX$ 公式，具体用法分为以下两类：</p>
+<h3 id="_4">行间公式<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>行间公式用两个 <code>$</code> 包围，公式的两端必须要有一个空格。</p>
+<p>如下面的这段话
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>由于特殊的结构，超盐酸具有超强的氧化性。
+
+根据赵明毅先生的测算，超盐酸的酸性是魔酸的 3451 万倍，
+
+以至超盐酸气体与氦气在常温下剧烈反应放出 $\rm 9000\;{^\circ}C$ 的高温，
+
+生成二氯化九氦液体，其中氦显 $+\frac 29$ 价。
+</code></pre></div>
+</td></tr></table></p>
+<p>效果如下：</p>
+<hr />
+<p>由于特殊的结构，超盐酸具有超强的氧化性。</p>
+<p>根据赵明毅先生的测算，超盐酸的酸性是魔酸的 3451 万倍，</p>
+<p>以至超盐酸气体与氦气在常温下剧烈反应放出 $\rm 9000\;{^\circ}C$ 的高温，</p>
+<p>生成二氯化九氦液体，其中氦显 $+\frac 29$ 价。</p>
+<hr />
+<h3 id="_5">独立公式<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>独立公式一般用于较大的公式，公式必须放在一个或多个单独的行中，用两个 <code>$$</code> 包围。</p>
+<p>由于 MkDocs 的神秘原理，平时在公式换行时所使用的 <code>\\</code> 需要改成 <code>\\\\</code>，否则会失效。</p>
+<p>如下面这段话
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>$$
+\begin{aligned}
+&amp;\frac{\sin 2x}{2n\cos x}\\\\
+=&amp;\frac{\sout{2}\sin x\,\sout{\cos x}}{\sout{2}n\,\sout{\cos x}}\\\\
+=&amp;\frac{{\rm si\sout{n}\;}x}{\sout{n}}\\\\
+=&amp;{\rm six}\\\\
+=&amp;6
+\end{aligned}
+$$
+</code></pre></div>
+</td></tr></table></p>
+<p>效果如下：</p>
+<hr />
+<p>$$
+\begin{aligned}
+&amp;\frac{\sin 2x}{2n\cos x}\\
+=&amp;\frac{\sout{2}\sin x\,\sout{\cos x}}{\sout{2}n\,\sout{\cos x}}\\
+=&amp;\frac{{\rm si\sout{n}\;}x}{\sout{n}}\\
+=&amp;{\rm six}\\
+=&amp;6
+\end{aligned}
+$$</p>
+<hr />
+<p>网站使用 $\KaTeX$ 渲染公式，可能不支持标准 $\LaTeX$ 中的部分关键字，请务必注意。</p>
+<p>关于 $\LaTeX$ 如何使用，大家可以自行百度或谷歌。</p>
+<h2 id="_6">列表<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<p>列表分为无序列表和有序列表，无序列表每行以 <code>+</code> 或 <code>-</code> 或 <code>*</code> 开头，有序列表每行以 <code>x.</code> 开头（其中 x 为该行的序号），后接一个空格，然后是该行的内容。</p>
+<p>无论是无序列表还是有序列表，列表的第一行必须与列表前的最后一行隔开一行，列表的最后一行必须与列表后的第一行隔开一行。</p>
+<p>如果列表中某一项需要分行，则两行之间需要空出一行，同时后面的每一行都必须以 4 个空格开头。</p>
+<p>下面是一个例子：
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>在这个伟大的过程中，硼先生还发表了数十种全新理论。其中一些很重要的理论及研究成果如下：
+
+<span class="k">1.</span> 发现雨水的一般 pH 值应该是在 $9 \sim 10$ 之间；
+<span class="k">2.</span> 培养出酸性草木灰；
+<span class="k">3.</span> 用 $\rm MnO_2$ 催化 $\rm NH_3$；
+<span class="k">4.</span> 重新定义氧化还原反应：
+
+    不含氧的就是还原产物，含氧元素的是氧化产物。
+
+另外，赵明毅大师还致力于改善人类生活。终于找到了把一瓶水喝成五瓶水的方法：
+
++ 首先到小卖部/副食店
++ 买一瓶康 × 傅茉莉蜜茶
++ 喝一半加一半的水就变成了茉莉清茶
++ 再喝一半后加一半的水就变成了茉莉清茶（无糖版）
++ 再喝一半加一半水就变成了农夫山泉（有点甜）
++ 再喝一半加一半水那就是矿泉水了！
++ 可以喝到五种口味哦！
+</code></pre></div>
+</td></tr></table></p>
+<p>效果如下：</p>
+<hr />
+<p>在这个伟大的过程中，硼先生还发表了数十种全新理论。其中一些很重要的理论及研究成果如下：</p>
+<ol>
+<li>发现雨水的一般 pH 值应该是在 $9 \sim 10$ 之间；</li>
+<li>培养出酸性草木灰；</li>
+<li>用 $\rm MnO_2$ 催化 $\rm NH_3$；</li>
+<li>
+<p>重新定义氧化还原反应：</p>
+<p>不含氧的就是还原产物，含氧元素的是氧化产物。</p>
+</li>
+</ol>
+<p>另外，赵明毅大师还致力于改善人类生活。终于找到了把一瓶水喝成五瓶水的方法：</p>
+<ul>
+<li>首先到小卖部/副食店</li>
+<li>买一瓶康 × 傅茉莉蜜茶</li>
+<li>喝一半加一半的水就变成了茉莉清茶</li>
+<li>再喝一半后加一半的水就变成了茉莉清茶（无糖版）</li>
+<li>再喝一半加一半水就变成了农夫山泉（有点甜）</li>
+<li>再喝一半加一半水那就是矿泉水了！</li>
+<li>可以喝到五种口味哦！</li>
+</ul>
+<hr />
+<p>同时，列表可以嵌套，被嵌套的列表每一行开头都必须比上一层列表多四个空格。</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">1.</span> 第一行
+<span class="k">2.</span> 第二行
+    + 2.1
+        <span class="k">1.</span> 2.1.1
+        <span class="k">2.</span> 2.1.2
+    + 2.2
+<span class="k">3.</span> 第三行
+</code></pre></div>
+</td></tr></table>
+<p>显示效果：</p>
+<hr />
+<ol>
+<li>第一行</li>
+<li>第二行<ul>
+<li>2.1<ol>
+<li>2.1.1</li>
+<li>2.1.2</li>
+</ol>
+</li>
+<li>2.2</li>
+</ul>
+</li>
+<li>第三行</li>
+</ol>
+<hr />
+<h2 id="_7">区块<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>与列表类似，区块中每一行以 <code>&gt;</code> 和一个空格开头。</p>
+<p>对于多行区块，每两行之间需要用一个仅包含一个 <code>&gt;</code> 的行隔开。</p>
+<p>例：
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="k">&gt; </span><span class="ge">“诬蔑？我不在乎，伟人都是这么过来的！”</span>
+&gt; 
+<span class="k">&gt; </span><span class="ge">“你们将为你们的无知和狂妄而流下悔恨的眼泪，而这些，我都将作为我科学事业道路上的绊脚石。”</span>
+</code></pre></div>
+</td></tr></table></p>
+<p>显示效果：</p>
+<hr />
+<blockquote>
+<p>“诬蔑？我不在乎，伟人都是这么过来的！”</p>
+<p>“你们将为你们的无知和狂妄而流下悔恨的眼泪，而这些，我都将作为我科学事业道路上的绊脚石。”</p>
+</blockquote>
+<hr />
+<h2 id="_8">代码<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>代码分为行间代码和代码区块。</p>
+<h3 id="_9">行间代码<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>行间代码用两个 <code>&#96;</code> 包围（电脑键盘上 <kbd>1</kbd> 左边的那个按键）。</p>
+<p>例：
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>无序列表每行以 <span class="sb">`+`</span> 或 <span class="sb">`-`</span> 或 <span class="sb">`*`</span> 开头，有序列表每行以 <span class="sb">`x.`</span> 开头（其中 x 为该行的序号）。
+
+在碳正正中，一般使用 <span class="sb">`printf`</span> 和 <span class="sb">`std::cout`</span> 进行输出。
+</code></pre></div>
+</td></tr></table></p>
+<p>显示效果：</p>
+<hr />
+<p>无序列表每行以 <code>+</code> 或 <code>-</code> 或 <code>*</code> 开头，有序列表每行以 <code>x.</code> 开头（其中 x 为该行的序号）。</p>
+<p>在碳正正中，一般使用 <code>printf</code> 和 <code>std::cout</code> 进行输出。</p>
+<hr />
+<h3 id="_10">代码区块<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>代码区块以一行 <code>&#96;&#96;&#96; lang</code> 开头，其中 <code>lang</code> 为语言，可以是 <code>cpp</code>、<code>py</code>、<code>java</code> 等，也可以省略，以一行 <code>&#96;&#96;&#96;</code> 结尾。</p>
+<p>例：</p>
+<div class="codehilite"><pre id="114514"><span></span><code>&#96;&#96;&#96; py
+a = 1
+print("Hello, World!")
+&#96;&#96;&#96;
+</code></pre></div>
+
+<p>显示效果：</p>
+<hr />
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World!&quot;</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
+<hr />
+<h2 id="_11">链接<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>链接格式为：<code>[链接名称](链接地址)</code></p>
+<p>例：
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>因此，在本贴吧（[超理吧](https://tieba.baidu.com/f?ie=utf-8&amp;kw=%E8%B6%85%E7%90%86)）发布的大多数疑似学术研究的内容都是不可靠的。
+</code></pre></div>
+</td></tr></table></p>
+<p>显示效果：</p>
+<hr />
+<p>因此，在本贴吧（<a href="https://tieba.baidu.com/f?ie=utf-8&amp;kw=%E8%B6%85%E7%90%86">超理吧</a>）发布的大多数疑似学术研究的内容都是不可靠的。</p>
+<hr />
+<h2 id="_12">图片<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<p>Markdown 中插入图片的格式为：<code>![](图片地址)</code></p>
+<p>其中，<code>图片地址</code> 是以当前文件所在的文件夹作为当前目录的。所以，如果要从 <code>friendly/exmp.md</code> 调用上一层的 <code>Antimoney.png</code>，需要按照以下方式写：</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>![](../Antimoney.png)
+</code></pre></div>
+</td></tr></table>
+<p>其中 <code>..</code> 表示上一级目录。显示效果如下：</p>
+<hr />
+<p><img alt="" src="../../Antimoney.png" /></p>
+<hr />
+<p>但是，一般在写文档的时候，图片居中、加上注释会好看一些，这时，我们应该这么写：</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>&lt;center&gt;
+    ![](../Antimoney.png)
+    &lt;br&gt;
+    &lt;div style=&quot;color:orange; border-bottom: 1px solid <span class="ni">#d9d9d9</span>;
+    display: inline-block; color: <span class="ni">#999</span>; padding: 2px;&quot;&gt;
+    金属锑
+    &lt;/div&gt;
+&lt;/center&gt;
+</code></pre></div>
+</td></tr></table>
+<p>显示效果如下：</p>
+<hr />
+<p><center>
+    <img alt="" src="../../Antimoney.png" />
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block; color: #999; padding: 2px;">
+    金属锑
+    </div>
+</center></p>
+<hr />
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><span class="foot-heimu">嗯哼哼，啊啊啊啊啊啊啊啊！！！</span>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+                  
+                
+              
+              
+              <h2>评论</h2>
+              <div id="gitalk-container"></div>
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../.." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                关于超理
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../cljc9/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                关于本书
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2008 - 2021 Chaoli Team
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.f03b12a7.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d3f6ab33.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+      <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+      <script>
+        var gitalk = new Gitalk({
+          clientID: '0f0ba459a62da9e2609e',
+          clientSecret: 'd52cfc833145f536816616db6a13a0998c2a916e',
+          repo: 'chaoli-books',
+          owner: 'HCl-10',
+          admin: ['HCl-10'],
+          id: location.pathname,
+        })
+
+        gitalk.render('gitalk-container');
+
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+      
+        <script src="../../_static/js/extra.js?v=16"></script>
+      
+    
+  </body>
+  <script type="module">
+	import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.mjs";
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false }
+    ]
+  });
+  </script>
+</html>

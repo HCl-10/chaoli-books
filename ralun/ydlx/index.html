@@ -1,0 +1,2228 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta http-equiv="x-dns-prefetch-control" content="on">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="本项目提供各超理书籍供各位超理爱好者学习">
+      
+      
+      
+        <meta name="author" content="超理团队">
+      
+      
+        <link rel="canonical" href="http://b.hcl10.ml/ralun/ydlx/">
+      
+      <link rel="shortcut icon" href="../../Antimoney.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>运动力学讲解 - 超理图书馆</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8e656da0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.936e7021.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto",;--md-code-font-family:"Roboto Mono",}</style>
+      
+    
+    
+      <link rel="manifest" href="../../manifest.webmanifest" crossorigin="use-credentials">
+    
+    
+      <link rel="stylesheet" href="../../_static/css/extra.css?v=13">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="red">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="http://b.hcl10.ml/" title="超理图书馆" class="md-header-nav__button md-logo" aria-label="超理图书馆">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            超理图书馆
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              运动力学讲解
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/HCl-10/chaoli-books/" title="前往 GitHub 仓库" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    HCl-10/chaoli-books
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://b.hcl10.ml/" title="超理图书馆" class="md-nav__button md-logo" aria-label="超理图书馆">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    超理图书馆
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/HCl-10/chaoli-books/" title="前往 GitHub 仓库" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    HCl-10/chaoli-books
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+      
+      <label class="md-nav__link" for="nav-1">
+        简介
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="简介" data-md-level="1">
+        <label class="md-nav__title" for="nav-1">
+          <span class="md-nav__icon md-icon"></span>
+          简介
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        关于超理
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../friendly/exmp/" class="md-nav__link">
+        Markdown 使用说明
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        超理教材 九年级全一册
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="超理教材 九年级全一册" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          超理教材 九年级全一册
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/" class="md-nav__link">
+        关于本书
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/0/" class="md-nav__link">
+        绪言
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/1/" class="md-nav__link">
+        第一单元 走进超理世界
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/2/" class="md-nav__link">
+        第二单元 我们周围的空气
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/3/" class="md-nav__link">
+        第三单元 氢
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/4/" class="md-nav__link">
+        第四单元 锑能守恒定律
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/5/" class="md-nav__link">
+        第五单元 锑与锑场
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/6/" class="md-nav__link">
+        第六单元 赵明毅大师及其发现
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/7/" class="md-nav__link">
+        第七单元 学习伟大的超理学家
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/8/" class="md-nav__link">
+        第八单元 实验
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/9/" class="md-nav__link">
+        第九单元 超理思想的传播与交流
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/10/" class="md-nav__link">
+        结束语
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/11/" class="md-nav__link">
+        附录
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cljc9/12/" class="md-nav__link">
+        真·结语
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        大锑星百科全书
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="大锑星百科全书" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          大锑星百科全书
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/mp3zh/" class="md-nav__link">
+        mp3 杂化
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/fg/" class="md-nav__link">
+        发功
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/gw/" class="md-nav__link">
+        高烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/hg/" class="md-nav__link">
+        黑光
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/jjw/" class="md-nav__link">
+        聚甲烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/knn/" class="md-nav__link">
+        昆奶牛
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/lhg/" class="md-nav__link">
+        颅海龟
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/mj/" class="md-nav__link">
+        魔键
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/qhjw/" class="md-nav__link">
+        氢合甲烷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/tc/" class="md-nav__link">
+        锑场
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/txdx/" class="md-nav__link">
+        锑星大学
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bkqs/zmy/" class="md-nav__link">
+        赵明毅
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      
+      <label class="md-nav__link" for="nav-4">
+        雷论
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="雷论" data-md-level="1">
+        <label class="md-nav__title" for="nav-4">
+          <span class="md-nav__icon md-icon"></span>
+          雷论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        总集
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          运动力学讲解
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        运动力学讲解
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    正文
+  </a>
+  
+    <nav class="md-nav" aria-label="正文">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 力的定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 运动力的定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 运动力是从哪里来的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 运动力的方向
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 运动力的作用点
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 运动力的大小
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7. 运动力的计算公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    8. 运动力的单位
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    9. 运动力第一定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    10. 运动力第二定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    11. 运动力第三定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    12. 牛顿第一定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    13. 牛顿第二定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    14. 牛顿第三定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    15. 速度 = 位移 / 时间的错误
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    16. 速度方向的错误
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    17. 作用力和反作用力问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    18. 力和速度的关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    19. 力和加速度的关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    20. 自由落体运动
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    21. 自由落体运动重力和运动力关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    22. 关于施力物体和受力物体问题
+  </a>
+  
+    <nav class="md-nav" aria-label="22. 关于施力物体和受力物体问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    一、施力物体：就是对其他物体施加力的物体。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    二、受力物体：接受施力物体运动力的物体。
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    23. 检测一下你自己是否无知
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26" class="md-nav__link">
+    26. 运动力越大时越省燃料的证明
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27" class="md-nav__link">
+    27. 运动是绝对的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    28. 静止是绝对的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    29. 惯性定律是错误的
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cxdz/" class="md-nav__link">
+        创新电子理论
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yonglei/" class="md-nav__link">
+        咏雷
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stories/" class="md-nav__link">
+        雷绍武回忆录
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        丙酮著作集
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="丙酮著作集" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          丙酮著作集
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acetone/lxtl/" class="md-nav__link">
+        关于普通高中学生邋遢现象的研究
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acetone/lhgknn/" class="md-nav__link">
+        喜阴的颅海龟和高原的昆奶牛
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
+        WYZ 超文集
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="WYZ 超文集" data-md-level="1">
+        <label class="md-nav__title" for="nav-6">
+          <span class="md-nav__icon md-icon"></span>
+          WYZ 超文集
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/Acid_Hard-A/" class="md-nav__link">
+        Acid Hard (上)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/gysj/" class="md-nav__link">
+        野史春秋·生物列传·果蝇世家
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cw/gywz/" class="md-nav__link">
+        野史春秋·生物列传·果蝇外传(未完)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    正文
+  </a>
+  
+    <nav class="md-nav" aria-label="正文">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1. 力的定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2. 运动力的定义
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3. 运动力是从哪里来的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4. 运动力的方向
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5. 运动力的作用点
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 运动力的大小
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7. 运动力的计算公式
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    8. 运动力的单位
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    9. 运动力第一定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    10. 运动力第二定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    11. 运动力第三定律
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    12. 牛顿第一定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    13. 牛顿第二定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    14. 牛顿第三定律是错误的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15" class="md-nav__link">
+    15. 速度 = 位移 / 时间的错误
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    16. 速度方向的错误
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    17. 作用力和反作用力问题
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    18. 力和速度的关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    19. 力和加速度的关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    20. 自由落体运动
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    21. 自由落体运动重力和运动力关系
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    22. 关于施力物体和受力物体问题
+  </a>
+  
+    <nav class="md-nav" aria-label="22. 关于施力物体和受力物体问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    一、施力物体：就是对其他物体施加力的物体。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    二、受力物体：接受施力物体运动力的物体。
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    23. 检测一下你自己是否无知
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26" class="md-nav__link">
+    26. 运动力越大时越省燃料的证明
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27" class="md-nav__link">
+    27. 运动是绝对的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28" class="md-nav__link">
+    28. 静止是绝对的
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    29. 惯性定律是错误的
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="http://b.hcl10.ml/edit-landing/?ref=/ralun/ydlx.md" title="编辑此页" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="_1">雷论：运动力学讲解<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>雷绍武老师编写的《<strong>运动力学讲解</strong>》，详细地阐述了运动力学理论。<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<h2 id="_2">正文<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="1">1. 力的定义<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>力的定义：力是物体运动的原因。</li>
+<li>
+<p>有人说：你这是说的力的作用。是错误的。</p>
+<p>我可以明确告诉你：我说的是力的本质特点。</p>
+<p>为什么传统理论说：力是物体间的相互作用。几百年了，就没有人去反对呢？</p>
+<p>为什么我说出来就遭到反对了？况且，我还没有说是“作用”啊！</p>
+</li>
+<li>
+<p>因为“力”是看不见，摸不着的东西，只能通过物体的运动和不运动表现出来。</p>
+<p>物体运动，一定是因为有力。</p>
+</li>
+<li>
+<p>因此说，力的定义：力是物体运动的原因。</p>
+</li>
+</ol>
+<h3 id="2">2. 运动力的定义<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力的定义：能够使物体运动的力叫运动力。</p>
+</li>
+<li>
+<p>不管有没有外力，能够使物体运动的力都叫运动力。</p>
+</li>
+<li>
+<p>物体运动，是因为运动力 &gt; 0。物体不运动是因为运动力 = 0。</p>
+</li>
+<li>
+<p>结论：运动力才是物体运动的真正原因。</p>
+</li>
+<li>
+<p>因此，运动力的定义是对力的定义的进一步完善。</p>
+</li>
+</ol>
+<h3 id="3">3. 运动力是从哪里来的<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力物体的运动力是从施力物体里来的。</p>
+</li>
+<li>
+<p>物体的运动力 = 施力物体的作用力 - 运动物体的阻力。</p>
+</li>
+<li>
+<p>施力物体的力也是施力物体的运动力产生的作用力现象。</p>
+<p>如果施力物体没有运动现象，绝对不能的其他物体施力。</p>
+</li>
+<li>
+<p>施力物体对运动物体可以瞬间接触施力。</p>
+<p>比如发射炮弹，射击，扔手榴弹，碰撞等等。</p>
+<p>运动物体离开施力物体后，因为有运动力，所以能继续运动。直到运动力 = 0，才会停止运动。</p>
+</li>
+<li>
+<p>施力物体对运动物体可以长时间接触施力。</p>
+<p>比如上升的火箭，上升的飞机，上升的电梯，汽车火车等等。</p>
+<p>如果运动物体离开施力物体后，就不可能能继续上升运动。</p>
+<p>运动的汽车火车离开施力物体后，就会慢慢停下来。</p>
+</li>
+</ol>
+<h3 id="4">4. 运动力的方向<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力的方向就是物体运动的方向。</p>
+</li>
+<li>
+<p>力的方向是看不见，摸不着的，只有通过物体的运动方向表现出来。</p>
+</li>
+<li>
+<p>因此，运动力的方向就是物体运动的方向。</p>
+</li>
+</ol>
+<h3 id="5">5. 运动力的作用点<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力的作用点在运动物体的重心。</p>
+</li>
+<li>
+<p>运动力平均作用在运动物体的每一个质点上。</p>
+</li>
+<li>
+<p>如果运动物体的每一个质点上的运动力不一样，物体形状会发生改变。</p>
+</li>
+</ol>
+<h3 id="6">6. 运动力的大小<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力的大小是指每一秒运动力的大小。</p>
+</li>
+<li>
+<p>每一秒运动力的大小 $=$ 物体质量 $\times$ 每一秒运动的速度。</p>
+</li>
+<li>
+<p>有人问：运动力只能 1 秒 1 秒的计算吗？不是的。</p>
+<p>有了每一秒的运动力，任何时间 $t$ 的运动力都能计算出来了。</p>
+</li>
+</ol>
+<h3 id="7">7. 运动力的计算公式<a class="headerlink" href="#7" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力的计算公式：$L=kmv$。</p>
+<p>$L$，每一秒的运动力。$k=1/$秒（每一秒）。$m$，运动物体质量。$v$，运动速度。</p>
+</li>
+<li>
+<p>运动力的计算公式 $L=kmv$，可以计算大到宇宙天体，小到电子，分子，光子每一秒运动需要的力。</p>
+</li>
+</ol>
+<h3 id="8">8. 运动力的单位<a class="headerlink" href="#8" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力 $L=kmv$ 的单位：$L$ 单位：雷。$k$ 单位：$1/$秒。$m$ 单位：千克。$v$ 单位：米/秒。</p>
+</li>
+<li>
+<p>运动力的单位：${\rm 1\;L}=1\;\text{千克}\cdot\text{米/秒}\cdot1/\text{秒}=1\;\text{雷}$。</p>
+</li>
+<li>
+<p>运动力 $\rm 1\;L=$ 世界通用的力 $\rm 1\;N$。</p>
+</li>
+<li>
+<p>运动力的单位 ${\rm 1\;L}=1\;\text{千克}\cdot\text{米/秒}\cdot1/\text{秒}=1\;\text{雷}$，揭示了力的本质：力与物体每一秒的运动状态密不可分。</p>
+</li>
+</ol>
+<h3 id="9">9. 运动力第一定律<a class="headerlink" href="#9" title="Permanent link">&para;</a></h3>
+<p>运动力第一定律：运动力和物体运动的关系:</p>
+<ol>
+<li>
+<p>运动力 $=0$，物体静止。</p>
+</li>
+<li>
+<p>运动力 $&gt;0$，物体运动。</p>
+</li>
+<li>
+<p>运动力不变，物体匀速运动。(包括匀速直线运动。匀速圆周运动。匀速曲线运动）。</p>
+</li>
+</ol>
+<h3 id="10">10. 运动力第二定律<a class="headerlink" href="#10" title="Permanent link">&para;</a></h3>
+<p>运动力第二定律：运动力与速度的关系：质量不变，阻力不变的条件下，运动速度与运动力成正比。</p>
+<ol>
+<li>
+<p>运动力越大，速度越快。</p>
+</li>
+<li>
+<p>运动力越小，速度越慢。</p>
+</li>
+<li>
+<p>运动力 $=0$，速度 $=0$。</p>
+</li>
+<li>
+<p>只有力增加，速度才能增加。</p>
+</li>
+<li>
+<p>证明：牛顿第二定律的力只产生加速度是错误的。</p>
+<p>没有速度的增加，哪里来的加速度？</p>
+</li>
+</ol>
+<h3 id="11">11. 运动力第三定律<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p>运动力第三定律：运动力与外力的关系：</p>
+<ol>
+<li>
+<p>外力能够改变运动力物体的运动状态。</p>
+</li>
+<li>
+<p>如果外力的作用力与运动力物体的方向一致，能够使物体的运动速度变快。</p>
+</li>
+<li>
+<p>如果外力的作用力与运动力物体的方向相反，能够使物体的运动速度变慢。</p>
+</li>
+<li>
+<p>如果外力的作用力与运动力物体的方向不在同一条直线上，能够使物体的运动方向发生改变。</p>
+</li>
+<li>
+<p>证明：牛顿第三定律说：“相互作用的两个物体之间的作用力和反作用力总是大小相等，方向相反，作用在同一条直线上”。是错误的。</p>
+</li>
+</ol>
+<h3 id="12">12. 牛顿第一定律是错误的<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>牛顿第一运动定律，简称牛顿第一定律。又称惯性定律、惰性定律。常见的完整表述：任何物体都要保持匀速直线运动或静止状态，直到外力迫使它改变运动状态为止。</p>
+</li>
+<li>
+<p>牛顿第一运动定律说了物体的三种状态：</p>
+<ol>
+<li>
+<p>保持匀速直线运动状态。</p>
+</li>
+<li>
+<p>保持静止状态。</p>
+</li>
+<li>
+<p>外力迫使它改变运动状态。</p>
+</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>
+<p>凭什么去保持匀速直线运动状态？</p>
+</li>
+<li>
+<p>凭什么会有匀速直线运动的速度呢？</p>
+</li>
+<li>
+<p>有人说：是因为有动量。</p>
+</li>
+<li>
+<p>什么是动量？为什么是动量？既然说是动量了，为什么又说是惯性呢？</p>
+</li>
+<li>
+<p>经典力学也说：物体运动的方向就是力的方向。难道匀速直线运动不是运动吗？没有运动方向吗？为什么力就不不存在了呢？</p>
+</li>
+<li>
+<p>雷氏理论说：只有物体的运动力不变，才能保持匀速直线运动状态。</p>
+</li>
+<li>
+<p>证明：说惯性是对力与运动关系的无知。</p>
+</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>
+<p>物体凭什么保持静止状态？</p>
+</li>
+<li>
+<p>只有物体受到的合外力 $=0$，运动力 $=0$，才能保持静止状态。这是任何人都可以实验证明的。</p>
+</li>
+<li>
+<p>证明：说惯性能保持静止状态是对力与运动关系的无知。</p>
+</li>
+</ol>
+</li>
+<li>
+<ol>
+<li>
+<p>外力凭什么迫使它改变运动状态？</p>
+</li>
+<li>
+<p>经典力学也认为只有力和力的作用。难道“迫使它改变运动状态”的外力就不和力作用了？难道是和惯性，和动量去发生作用了？</p>
+</li>
+<li>
+<p>雷氏理论说：只有运动力不变，才能保持速度不变的运动。</p>
+</li>
+<li>
+<p>只有与运动力同方向的外力作用，才能迫使它运动速度增加。</p>
+</li>
+<li>
+<p>只有与运动力方向相反的外力作用，才能迫使它运动速度减小。</p>
+</li>
+<li>
+<p>只有与运动力方向不在同一条直线的外力作用，才能迫使它运动方向改变。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>证明：牛顿第一运动定律错误的。</p>
+<p>提出牛顿第一运动定律的人是对力和运动关系的无知。</p>
+<p>那些相信牛顿第一运动定律的人，疯狂反对运动力理论的人，更是对力和运动关系的一无所知。</p>
+</li>
+</ol>
+<h3 id="13">13. 牛顿第二定律是错误的<a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>牛顿第二定律说：物体加速度的大小跟它所受的作用力成正比、跟它的质量成反比，加速度的方向跟作用力的方向相同（定量的计算力与运动的关系，$F=ma$）。在国际单位制中的单位为米每二次方秒。</p>
+</li>
+<li>
+<p>牛顿第二定律是牛顿力学的最关键性错误。</p>
+</li>
+<li>
+<p>物体受到的力是合外力，不是作用力。</p>
+</li>
+<li>
+<p>物体运动的标志是速度 $V$，而不是加速度 $a$。</p>
+</li>
+<li>
+<p>物体受到的合外力 $F=$ 物体的运动力 $L$。</p>
+</li>
+<li>
+<p>物体受到的合外力与运动速度是成正比关系。</p>
+<p>质量不变时：</p>
+<ol>
+<li>
+<p>合外力 $=0$，物体静止。</p>
+</li>
+<li>
+<p>合外力 $&gt;0$，物体能运动。</p>
+</li>
+<li>
+<p>合外力越大，物体的运动速度越快。</p>
+</li>
+<li>
+<p>合外力越小，物体的运动速度越慢。</p>
+</li>
+<li>
+<p>合外力不变，物体的运动速度不变。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>合外力方向与物体运动方向一致。</p>
+</li>
+<li>
+<p>事实证明：合外力只和速度有关系，和加速度没有任何关系。</p>
+<p>牛顿的合外力只产生加速度的牛顿第二定律是错误。</p>
+</li>
+</ol>
+<h3 id="14">14. 牛顿第三定律是错误的<a class="headerlink" href="#14" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>牛顿第三定律说：两个物体之间的作用力和反作用力，总是大小相等、方向相反，作用在同一条直线上（说明了力的作用是相互的）。</p>
+</li>
+<li>
+<p>牛顿第三定律是错误的。</p>
+</li>
+<li>
+<p>两个物体之间的作用力和反作用力，总是大小相等、方向相反，作用在同一条直线上。</p>
+<p>这只是两个物体相互作用后，合外力 $=0$ 时的一种静止状态。</p>
+</li>
+<li>
+<p>当两个物体相互作用后，合外力 $&gt;0$ 时，会发生物体的运动现象。</p>
+</li>
+<li>
+<p>当一个物体作用在另一个物体的力不在同一条直线上时，会改变物体的运动方向。</p>
+</li>
+<li>
+<p>说“力的作用是相互的”，是因为有两个物体的力的存在，才能发生相互作用。</p>
+<p>如果只有一个物体的力，和谁去相互作用呢？</p>
+</li>
+<li>
+<p>证明：说物体的力只有在物体作用时才存在，同时产生，同时消失是错误的。</p>
+</li>
+<li>
+<p>证明：牛顿第三定律是错误的。</p>
+</li>
+</ol>
+<h3 id="15">15. 速度 = 位移 / 时间的错误<a class="headerlink" href="#15" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>高中物理说：速度等于位移 $s$ 跟发生这段位移所用时间 $t$ 的比值。用 $v={\frac {s}{t}}$ 表示。</p>
+</li>
+<li>
+<p>速度 = 位移 / 时间是错误的。</p>
+</li>
+<li>
+<p>位移只与物体运动的始末位置有关，而与运动的轨迹无关。如果质点在运动过程中经过一段时间后回到原处，位移则为零。</p>
+<ol>
+<li>
+<p>难道运动员在 400 米环形跑道跑 $n$ 圈后回到原来位置的运动速度 $=0$ 吗？</p>
+</li>
+<li>
+<p>难道飞机飞行几百公里后回到原来位置的飞行速度 $=0$ 吗？</p>
+</li>
+</ol>
+</li>
+<li>
+<p>证明：速度 = 位移 / 时间是错误的。</p>
+</li>
+<li>
+<p>那么，什么是正确的速度呢？</p>
+<p>正确的是：速度 = 运动的路程 / 运动的时间。用 $v={\frac {S}{t}}$ 表示。$v$，速度；$S$，运动路程；$t$，运动时间。</p>
+</li>
+</ol>
+<h3 id="16">16. 速度方向的错误<a class="headerlink" href="#16" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>高中物理说：速度的方向即为物体运动的方向。</p>
+</li>
+<li>
+<p>说“速度的方向即为物体运动的方向”是错误的。</p>
+</li>
+<li>
+<p>因为速度 = 路程 / 时间。路程 = 长度。长度，时间和任何方向都没有关系。</p>
+</li>
+<li>
+<p>结论：说速度有方向是错误的。</p>
+</li>
+</ol>
+<h3 id="17">17. 作用力和反作用力问题<a class="headerlink" href="#17" title="Permanent link">&para;</a></h3>
+<p>很多人对作用力和反作用力物体纠缠不清。</p>
+<ol>
+<li>
+<p>作用力和反作用力是两个物体方向相反，在同一条直线上的力。</p>
+</li>
+<li>
+<p>静止的物体作用力和反作用力大小相等，方向相反，在同一条直线上。</p>
+<p>比如：</p>
+<p>静止的汽车：汽车重力（作用力）= 地面对汽车的支撑力（反作用力）。合外力 $=0$。</p>
+<p>静止的吊灯：吊灯的拉力（作用力）= 吊灯的重力（反作用力）。合外力 $=0$。</p>
+</li>
+<li>
+<p>静止的汽车在水平方向上有摩擦力阻力。</p>
+</li>
+<li>
+<p>当汽车牵引力（作用力）= 汽车在水平方向上的摩擦力阻力（反作用力）时，合外力 $=0$，汽车一定是静止的。</p>
+<p>经典力学，教科书上面都说：汽车受到的合外力 $=0$，汽车匀速直线运动。</p>
+<p>这完全是不懂装懂的胡说八道！</p>
+<p>这是对人类的彻头彻尾的欺骗！</p>
+<p>可怜那些没有智商的科奴们却如获至宝，奉若万古不变的真理，代代相传！</p>
+<p>不知道这种欺骗什么时候才是一个尽头！！！？？？</p>
+</li>
+<li>
+<p>只有当汽车牵引力（作用力）&gt; 汽车在水平方向上的摩擦力阻力（反作用力）时，合外力 $&gt;0$，运动力 $&gt;0$，汽车才能够运动。</p>
+</li>
+<li>
+<p>只有汽车的运动力不变，汽车才能匀速运动（不光是匀速直线运动）。</p>
+</li>
+<li>
+<p>物体的作用力 &lt; 物体阻力，比如人用力踢墙，墙肯定是静止的。</p>
+</li>
+<li>
+<p>物体的作用力 &gt; 物体阻力，比如人用力踢足球，合外力 $&gt;0$，足球运动力 $&gt;0$，足球肯定能飞出去。作用力越大，足球飞的越快越远。</p>
+<p>这就是实验实践证明。</p>
+</li>
+</ol>
+<h3 id="18">18. 力和速度的关系<a class="headerlink" href="#18" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>速度是合外力 $&gt;0$ 产生的。如果没有合外力 $&gt;0$，就没有运动速度。</p>
+</li>
+<li>
+<p>因此，合外力 $&gt;0$，产生的是运动速度，而不是加速度。</p>
+</li>
+<li>
+<p>力和速度的关系是：</p>
+<ol>
+<li>
+<p>每一秒 $\rm 1\;N$ 的合外力 = 每一秒 $\rm 1\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 1 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>每一秒 $\rm 5\;N$ 的合外力 = 每一秒 $\rm 5\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 5 米/秒的速度 $v$。</p>
+<p>............................</p>
+</li>
+<li>
+<p>证明：力和运动速度成正比关系。</p>
+</li>
+<li>
+<p>证明：任何一点点力的改变都会引起速度的改变。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>结论：经典力学说运动不需要力，是完全错误的。</p>
+</li>
+</ol>
+<h3 id="19">19. 力和加速度的关系<a class="headerlink" href="#19" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>力和速度成正比关系。</p>
+<ol>
+<li>
+<p>每一秒 $\rm 1\;N$ 的合外力 = 每一秒 $\rm 1\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 1 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>每一秒 $\rm 5\;N$ 的合外力 = 每一秒 $\rm 5\;L$ 的运动力 = 1 千克质量 $m$ 每一秒产生 5 米/秒的速度 $v$。</p>
+<p>............................</p>
+</li>
+<li>
+<p>证明：没有力的增加，就没有速度的增加。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>合外力和加速度的关系：</p>
+<ol>
+<li>
+<p>用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 1 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 5 秒，产生每秒 5 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>用每一秒 $\rm 5\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 5 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>证明：</p>
+<p>用每一秒 $\rm 1\;N$ 的合外力对 1 千克质量 $m$ 作用 5 秒，产生每秒 5 米/秒的速度 $v$ = 用每一秒 $\rm 5\;N$ 的合外力对 1 千克质量 $m$ 作用 1 秒，产生每秒 5 米/秒的速度 $v$。</p>
+</li>
+<li>
+<p>证明：每一秒 $\rm 1\;N$ 的合外力作用 5 秒的力 = 每一秒 $\rm 5\;N$ 的合外力作用 1 秒的力。</p>
+</li>
+<li>
+<p>结论：只有增加力，才能增加速度。</p>
+<p>说力不变能产生加速度是错误的。</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="20">20. 自由落体运动<a class="headerlink" href="#20" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>自由落体运动：是在重力作用下运动力匀速增加的匀加速运动。</p>
+</li>
+<li>
+<p>1 千克物体每一秒增加运动力 4.9 L。每一秒增加速度 4.9 米/秒。</p>
+</li>
+<li>
+<p>1 千克物体第一秒运动力 4.9 L。第一秒速度 4.9米/秒。</p>
+</li>
+<li>
+<p>1 千克物体第二秒运动力 9.8 L。第二秒速度 9.8 米/秒。</p>
+</li>
+<li>
+<p>1 千克物体第三秒运动力 14.7 L。第三秒速度 14.7 米/秒。</p>
+<p>.............................</p>
+<p>以此类推。</p>
+<p>$t$ 时间的运动力 $L =$ 1 千克物体每一秒增加的运动力 $\rm 4.9\;L\cdot t=4.9\;L\cdot1/s\cdot t$。</p>
+<p>$t$ 时间的运动速度 $v =$ 每一秒增加的速度 $\rm 4.9\;m/s\cdot t=4.9\;m/s\cdot 1/s\cdot t$。</p>
+</li>
+<li>
+<p>证明：越高的物体，下落时间越长，运动力越大，运动速度越快。</p>
+</li>
+</ol>
+<h3 id="21">21. 自由落体运动重力和运动力关系<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>在自由落体运动过程中，物体质量不变，引力不变，重力不变。</p>
+</li>
+<li>
+<p>在自由落体运动过程中，引力作用在物体质量上，质量运动产生运动力，每一秒增加 $\rm 4.9\;L$ 运动力。</p>
+</li>
+<li>
+<p>结论：在自由落体运动过程中，重力不会改变。只有运动力每一秒增加 $\rm 4.9\;L$ 的改变。</p>
+</li>
+</ol>
+<h3 id="22">22. 关于施力物体和受力物体问题<a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
+<h4 id="_3">一、施力物体：就是对其他物体施加力的物体。<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>施力物体的力=施力物体的运动力 $L=kmv$。</p>
+</li>
+<li>
+<p>没有物体运动，没有施力物体的运动力 $L=kmv$。任何物体都不可能施力。</p>
+</li>
+<li>
+<p>施力物体的运动力 $L=kmv=$ 对其他物体的作用力。</p>
+</li>
+<li>
+<p>证明：</p>
+<ol>
+<li>
+<p>一切施力物体的力都是在和其他物体作用前就已经具备了的。</p>
+</li>
+<li>
+<p>传统理论说作用力是在发生作用时同时产生，同时消失是错误的。</p>
+</li>
+</ol>
+</li>
+</ol>
+<h4 id="_4">二、受力物体：接受施力物体运动力的物体。<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>受力物体受到的力（作用力）$=$ 施力物体运动力 $L=kmv$。</p>
+</li>
+<li>
+<p>当受力物体受到的力（作用力）等于或者小于受力物体的阻力（摩擦力）时，受力物体是静止不动的。</p>
+</li>
+<li>
+<p>当受力物体受到的力（作用力）大于受力物体的阻力（摩擦力）时，受力物体是能够运动的。</p>
+</li>
+<li>
+<p>受力物体的运动力 $L=kmv=$ 施力物体运动力-受力物体阻力（摩擦力）。运动力越大，速度越快。</p>
+</li>
+<li>
+<p>证明：传统理论说受力物体也是施力物体是错误的。</p>
+</li>
+</ol>
+<h3 id="23">23. 检测一下你自己是否无知<a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>不知道 1 秒运动 5 米的速度 $v=\rm 5\;m/s$ 的人，是无知的。</p>
+</li>
+<li>
+<p>认为只能用微积分，用 d 计算速度的人，是无知的。</p>
+</li>
+<li>
+<p>不知道任何瞬时的速度都是每秒多少米的人，是无知的。</p>
+</li>
+<li>
+<p>不知道任何速度 $v$，都可以代入运动力公式计算出需要的运动力的人，是无知的。</p>
+</li>
+<li>
+<p>证明：那些坚信经典力学说“运动不需要力来维持”的人，是无知的。</p>
+</li>
+</ol>
+<h3 id="26">26. 运动力越大时越省燃料的证明<a class="headerlink" href="#26" title="Permanent link">&para;</a></h3>
+<p>在运动过程中，对于同一物体，运动力越大，速度越快，越是节省燃料。</p>
+<ol>
+<li>
+<p>比如：要让 1 千克物体阻力为 $\rm 1\;N$ 时第一秒运动 10 米。那么：</p>
+<ol>
+<li>
+<p>第 1 秒需要 $\rm 11\;N$ 的外力，产生 $\rm 10\;L$ 运动力，才能让 1 千克物体运动 10 米。</p>
+</li>
+<li>
+<p>第 2 秒撤销外力后，只有 $\rm 9\;L$ 运动力，能让 1 千克物体运动 9 米。</p>
+</li>
+<li>
+<p>第 3 秒只有 $\rm 8\;L$ 运动力，能让 1 千克物体运动 8 米。</p>
+</li>
+<li>
+<p>第 4 秒只有 $\rm 7\;L$ 运动力，能让 1 千克物体运动 7 米。</p>
+</li>
+<li>
+<p>第 5 秒只有 $\rm 6\;L$ 运动力，能让 1 千克物体运动 6 米。</p>
+</li>
+<li>
+<p>第 6 秒只有 $\rm 5\;L$ 运动力，能让 1 千克物体运动 5 米。</p>
+</li>
+<li>
+<p>第 7 秒只有 $\rm 4\;L$ 运动力，能让 1 千克物体运动 4 米。</p>
+</li>
+<li>
+<p>第 8 秒只有 $\rm 3\;L$ 运动力，能让 1 千克物体运动 3 米。</p>
+</li>
+<li>
+<p>第 9 秒只有 $\rm 2\;L$ 运动力，能让 1 千克物体运动 2 米。</p>
+</li>
+<li>
+<p>第 10 秒只有 $\rm 1\;L$ 运动力，能让 1 千克物体运动 1 米。最后 1 米运动完了，运动力没有了，停止运动了。</p>
+</li>
+<li>
+<p>$\rm 11\;N$ 的外力一共运动了 10 秒，运动路程 55 米，平均每米的外力 $\rm 0.2\;N$</p>
+</li>
+</ol>
+</li>
+<li>
+<p>比如：要让 1 千克物体阻力为 $\rm 1\;N$ 时第一秒运动 1 米。那么：</p>
+<ol>
+<li>
+<p>第 1 秒需要 $\rm 2\;N$ 的外力，产生 $\rm 1\;L$ 运动力，才能让 1 千克物体运动 1 米。</p>
+</li>
+<li>
+<p>如果第 2 秒撤销外力后，只有 $\rm 1\;L$ 运动力，能让 1 千克物体运动 1 米。</p>
+</li>
+<li>
+<p>因此，$\rm 2\;N$ 的外力一共运动了 2 秒，运动路程 2 米，平均每米的外力 $\rm 1\;N$</p>
+</li>
+</ol>
+</li>
+<li>
+<p>证明：在运动过程中，对于同一个物体，运动力越大，越是节省外力。</p>
+</li>
+<li>
+<p>最重要的是，如果 1 克燃料产生 $\rm 1\;N$ 的外力。那么：</p>
+<ol>
+<li>
+<p>第一种运动，11 克燃料能够让 1 千克物体运动 55 米。平均每米消耗燃料 0.2 克。</p>
+</li>
+<li>
+<p>第二种运动，2 克燃料能够让 1 千克物体运动 2 米。平均每米消耗燃料 1 克。</p>
+</li>
+<li>
+<p>证明：在运动过程中，在相同质量，相同条件下，运动力越大，速度越快，越是节省燃料。</p>
+</li>
+<li>
+<p>这是理论上的证明，应该是没有误差的。</p>
+</li>
+<li>
+<p>但是，在客观的具体运动过程中，存在着很多不确定的因素，误差肯定是存在的。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>同时还进一步证明：</p>
+<ol>
+<li>
+<p>只有合外力 $&gt;0$,运动力 $&gt;0$，才能产生运动速度 $v$。</p>
+</li>
+<li>
+<p>只有保持运动力不变，才能保持速度 $v$ 不变的匀速运动。</p>
+</li>
+<li>
+<p>运动在有阻力的过程中，必须使用燃料产生的外力去增加克服阻力的运动力，保持原来的运动力不变，才能保持匀速运动状态。</p>
+</li>
+<li>
+<p>证明：经典力学说“匀速直线运动合外力为 0”是错误的。</p>
+</li>
+<li>
+<p>证明：经典力学说“运动不需要力”是错误的。</p>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="27">27. 运动是绝对的<a class="headerlink" href="#27" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>物体运动速度 $=0$，静止。</p>
+</li>
+<li>
+<p>物体运动速度 $&gt;0$，运动。</p>
+</li>
+<li>
+<p>因为速度是绝对的。</p>
+</li>
+<li>
+<p>因此，运动也是绝对的。</p>
+</li>
+<li>
+<p>说运动是相对的都是错误的，无知的。</p>
+</li>
+</ol>
+<h3 id="28">28. 静止是绝对的<a class="headerlink" href="#28" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>什么叫静止？</p>
+<p>答：速度 $=0$，就是静止。</p>
+</li>
+<li>
+<p>速度 $=0$，这是绝对的。</p>
+</li>
+<li>
+<p>因此，静止是绝对的。</p>
+</li>
+<li>
+<p>有人说，房子是静止的，山是静止的。难道它们没有随着地球运动吗？</p>
+<p>答:这些人不知道是地球承载着房子，山的运动。如果地球速度 $=0$ 了，地球，房子，山还在运动吗？</p>
+</li>
+<li>
+<p>问这些问题的人是对运动和静止的概念一无所知。</p>
+</li>
+</ol>
+<h3 id="29">29. 惯性定律是错误的<a class="headerlink" href="#29" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>运动力 $&gt;0$，物体运动。</p>
+</li>
+<li>
+<p>运动力 $=0$，物体静止。</p>
+</li>
+<li>
+<p>物体不存在惯性。</p>
+</li>
+<li>
+<p>惯性定律是错误的，无知的。</p>
+</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>整理自雷氏力学吧，原帖：<br><a href="https://tieba.baidu.com/p/6492420558">https://tieba.baidu.com/p/6492420558</a><br><a href="https://tieba.baidu.com/p/6492498124">https://tieba.baidu.com/p/6492498124</a><br><a href="https://tieba.baidu.com/p/6492576246">https://tieba.baidu.com/p/6492576246</a><br><a href="https://tieba.baidu.com/p/6492609086">https://tieba.baidu.com/p/6492609086</a><br><a href="https://tieba.baidu.com/p/6494246657">https://tieba.baidu.com/p/6494246657</a><br><a href="https://tieba.baidu.com/p/6494267545">https://tieba.baidu.com/p/6494267545</a><br><a href="https://tieba.baidu.com/p/6494282860">https://tieba.baidu.com/p/6494282860</a><br><a href="https://tieba.baidu.com/p/6494329199">https://tieba.baidu.com/p/6494329199</a><br><a href="https://tieba.baidu.com/p/6494430939">https://tieba.baidu.com/p/6494430939</a><br><a href="https://tieba.baidu.com/p/6494459362">https://tieba.baidu.com/p/6494459362</a><br><a href="https://tieba.baidu.com/p/6494620706">https://tieba.baidu.com/p/6494620706</a><br><a href="https://tieba.baidu.com/p/6496656694">https://tieba.baidu.com/p/6496656694</a><br><a href="https://tieba.baidu.com/p/6500423502">https://tieba.baidu.com/p/6500423502</a><br><a href="https://tieba.baidu.com/p/6501853022">https://tieba.baidu.com/p/6501853022</a><br><a href="https://tieba.baidu.com/p/6503768472">https://tieba.baidu.com/p/6503768472</a><br><a href="https://tieba.baidu.com/p/6503846883">https://tieba.baidu.com/p/6503846883</a><br><a href="https://tieba.baidu.com/p/6506281488">https://tieba.baidu.com/p/6506281488</a><br><a href="https://tieba.baidu.com/p/6507559376">https://tieba.baidu.com/p/6507559376</a><br><a href="https://tieba.baidu.com/p/6507609773">https://tieba.baidu.com/p/6507609773</a><br><a href="https://tieba.baidu.com/p/6509172488">https://tieba.baidu.com/p/6509172488</a><br><a href="https://tieba.baidu.com/p/6511249244">https://tieba.baidu.com/p/6511249244</a><br><a href="https://tieba.baidu.com/p/6519213957">https://tieba.baidu.com/p/6519213957</a><br><a href="https://tieba.baidu.com/p/6521035226">https://tieba.baidu.com/p/6521035226</a><br><a href="https://tieba.baidu.com/p/7229749890">https://tieba.baidu.com/p/7229749890</a><br><a href="https://tieba.baidu.com/p/7256015264">https://tieba.baidu.com/p/7256015264</a><br><a href="https://tieba.baidu.com/p/7256817070">https://tieba.baidu.com/p/7256817070</a><br><a href="https://tieba.baidu.com/p/7256001417">https://tieba.baidu.com/p/7256001417</a><br>作者：雷绍武&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+                  
+                
+              
+              
+              <h2>评论</h2>
+              <div id="gitalk-container"></div>
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                总集
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../cxdz/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                创新电子理论
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2008 - 2021 Chaoli Team
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.f03b12a7.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d3f6ab33.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+      <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+      <script>
+        var gitalk = new Gitalk({
+          clientID: '0f0ba459a62da9e2609e',
+          clientSecret: 'd52cfc833145f536816616db6a13a0998c2a916e',
+          repo: 'chaoli-books',
+          owner: 'HCl-10',
+          admin: ['HCl-10'],
+          id: location.pathname,
+        })
+
+        gitalk.render('gitalk-container');
+
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+      
+        <script src="../../_static/js/extra.js?v=16"></script>
+      
+    
+  </body>
+  <script type="module">
+	import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.mjs";
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false }
+    ]
+  });
+  </script>
+</html>
