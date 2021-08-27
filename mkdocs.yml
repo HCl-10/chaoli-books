@@ -2,16 +2,16 @@
 site_name: 超理图书馆
 site_description: 本项目提供各超理书籍供各位超理爱好者学习
 site_author: 超理团队
-site_url: http://b.hcl10.ml/
+site_url: http://hcl-10.github.io/chaoli-books
 strict: true
 
 # Repository
 repo_name: 'HCl-10/chaoli-books'
 repo_url: 'https://github.com/HCl-10/chaoli-books'
-edit_uri: 'http://b.hcl10.ml/edit-landing/?ref='
+edit_uri: 'http://hcl-10.github.io/chaoli-books/edit-landing/?ref='
 
 # Copyright
-copyright: 'Copyright &copy; 2008 - 2021 Chaoli Team'
+copyright: 'Copyright &copy; 2008 - 2022 Chaoli Team'
 
 # Contents
 nav:
