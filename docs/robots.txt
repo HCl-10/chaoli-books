@@ -1,1 +1,1 @@
-Sitemap: http://b.hcl10.ml/sitemap.xml
+Sitemap: http://sodium.icu:65535/sitemap.xml

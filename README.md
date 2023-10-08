@@ -33,7 +33,7 @@
 <p align="right">—— 摘抄自《超理教材 九年级全一册》编者的话</p>
 
 ## 部署
-本项目目前采用 [MkDocs](https://github.com/mkdocs/mkdocs) 部署在 [b.hcl10.ml](http://b.hcl10.ml)，当然，也可以在本地部署（需要 Python3）。
+本项目目前采用 [MkDocs](https://github.com/mkdocs/mkdocs) 部署在 [sodium.icu:65535](http://sodium.icu:65535/)，当然，也可以在本地部署（需要 Python3）。
 
 ``` bash
 git clone https://github.com/HCl-10/chaoli-books.git --recursive
