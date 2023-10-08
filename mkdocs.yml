@@ -18,6 +18,11 @@ nav:
   - 简介:
     - 关于超理: index.md
     - Markdown 使用说明: friendly/exmp.md
+  - 标准物理学新解:
+    - 关于本书: bzwlxxj/index.md
+  - 丙酮著作集:
+    - 关于普通高中学生邋遢现象的研究: acetone/lxtl.md
+    - 喜阴的颅海龟和高原的昆奶牛: acetone/lhgknn.md
   - 超理教材 九年级全一册:
     - 关于本书: cljc9/index.md
     - 绪言: cljc9/0.md
@@ -52,9 +57,6 @@ nav:
     - 创新电子理论: ralun/cxdz.md
     - 咏雷: ralun/yonglei.md
     - 雷绍武回忆录: ralun/stories.md
-  - 丙酮著作集:
-    - 关于普通高中学生邋遢现象的研究: acetone/lxtl.md
-    - 喜阴的颅海龟和高原的昆奶牛: acetone/lhgknn.md
   - WYZ 超文集:
     - 野史春秋·生物列传·果蝇世家: cw/gysj.md
     - 野史春秋·生物列传·果蝇外传(未完): cw/gywz.md
