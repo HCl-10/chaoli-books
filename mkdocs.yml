@@ -2,16 +2,16 @@
 site_name: 超理图书馆
 site_description: 本项目提供各超理书籍供各位超理爱好者学习
 site_author: 超理团队
-site_url: http://sodium.icu:65535/
+site_url: http://books.sodium.icu/
 strict: true
 
 # Repository
 repo_name: 'HCl-10/chaoli-books'
 repo_url: 'https://github.com/HCl-10/chaoli-books'
-edit_uri: 'http://sodium.icu:65535/edit-landing/?ref='
+edit_uri: 'http://books.sodium.icu/edit-landing/?ref='
 
 # Copyright
-copyright: 'Copyright &copy; 2008 - 2023 Chaoli Team'
+copyright: 'Copyright &copy; 2008 - 2025 Chaoli Team'
 
 # Contents
 nav:
